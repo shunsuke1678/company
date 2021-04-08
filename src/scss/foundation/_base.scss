@@ -1,1 +1,8 @@
-﻿
+﻿.f-container{
+    width: 84%;
+    margin: 0 auto;
+    @include mq() {
+        width: 91%;
+        max-width: 1240px;
+    }
+}
